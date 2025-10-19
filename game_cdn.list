@@ -1,0 +1,3 @@
+[Rule]
+   # 游戏 CDN 下载直连（一行搞定！）
+   RULE-SET,https://raw.githubusercontent.com/你的用户名/surge-rules/main/game_cdn.list,🌐 全球直连
