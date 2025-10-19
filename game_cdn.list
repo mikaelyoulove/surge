@@ -1,3 +1,43 @@
-[Rule]
-   # 游戏 CDN 下载直连（一行搞定！）
-   RULE-SET,https://raw.githubusercontent.com/你的用户名/surge-rules/main/game_cdn.list,🌐 全球直连
+# 游戏平台 CDN 下载规则
+# Steam CDN
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steampipe.akamaized.net
+DOMAIN-SUFFIX,cdn.steamchina.com
+DOMAIN-SUFFIX,st.dl.eccdnx.com
+DOMAIN-SUFFIX,st.dl.bscstorage.net
+DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+
+# Epic Games CDN
+DOMAIN-SUFFIX,epicgames-download1.akamaized.net
+DOMAIN-SUFFIX,download.epicgames.com
+DOMAIN-SUFFIX,download2.epicgames.com
+DOMAIN-SUFFIX,download3.epicgames.com
+DOMAIN-SUFFIX,download4.epicgames.com
+DOMAIN-SUFFIX,epicgames-download1-1248.akamaized.net
+
+# Ubisoft CDN
+DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
+DOMAIN-SUFFIX,ubisoftconnect.eo.edgefunctions7.com
+
+# Blizzard CDN
+DOMAIN-SUFFIX,dist.blizzard.com.cn
+DOMAIN-SUFFIX,blzddist1-a.akamaihd.net
+DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net
+DOMAIN-SUFFIX,level3.blizzard.com
+
+# EA Origin CDN
+DOMAIN-SUFFIX,origin-a.akamaihd.net
+DOMAIN-SUFFIX,lvlt.cdn.ea.com
+DOMAIN-SUFFIX,download.dm.origin.com
+
+# Rockstar CDN
+DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+
+# Xbox / Microsoft Store CDN
+DOMAIN-SUFFIX,assets1.xboxlive.cn
+DOMAIN-SUFFIX,assets1.xboxlive.com
+DOMAIN-SUFFIX,assets2.xboxlive.com
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com
