@@ -1,0 +1,259 @@
+# =========================================
+# DeFi协议规则集 - 综合版
+# 来源: DefiLlama Top Protocols + 手动整理
+# 更新时间: 2024-12
+# 使用方法: RULE-SET,<URL>,<策略组名称>
+# GitHub: https://github.com/你的用户名/surge-rules
+# =========================================
+
+# === Top DeFi协议 (按TVL和使用频率排序) ===
+
+# DEX (去中心化交易所)
+DOMAIN-SUFFIX,uniswap.org  # Uniswap - 最大DEX
+DOMAIN-SUFFIX,app.uniswap.org
+DOMAIN-SUFFIX,curve.fi  # Curve Finance - 稳定币交易
+DOMAIN-SUFFIX,pancakeswap.finance  # PancakeSwap - BSC最大DEX
+DOMAIN-SUFFIX,raydium.io  # Raydium - Solana DEX
+DOMAIN-SUFFIX,orca.so  # Orca - Solana DEX
+DOMAIN-SUFFIX,sushi.com  # SushiSwap
+DOMAIN-SUFFIX,sushiswap.org
+DOMAIN-SUFFIX,balancer.fi  # Balancer
+DOMAIN-SUFFIX,1inch.io  # 1inch - DEX聚合器
+DOMAIN-SUFFIX,app.1inch.io
+DOMAIN-SUFFIX,kyberswap.com  # KyberSwap
+DOMAIN-SUFFIX,dydx.exchange  # dYdX - 衍生品DEX
+DOMAIN-SUFFIX,trade.dydx.exchange
+DOMAIN-SUFFIX,trader.xyz  # Trader Joe - Avalanche
+DOMAIN-SUFFIX,traderjoe.xyz
+DOMAIN-SUFFIX,quickswap.exchange  # QuickSwap - Polygon
+DOMAIN-SUFFIX,spooky.fi  # SpookySwap - Fantom
+DOMAIN-SUFFIX,velodrome.finance  # Velodrome - Optimism
+DOMAIN-SUFFIX,aerodrome.finance  # Aerodrome - Base
+
+# Lending (借贷协议)
+DOMAIN-SUFFIX,aave.com  # Aave - 最大借贷协议
+DOMAIN-SUFFIX,app.aave.com
+DOMAIN-SUFFIX,compound.finance  # Compound
+DOMAIN-SUFFIX,app.compound.finance
+DOMAIN-SUFFIX,makerdao.com  # MakerDAO
+DOMAIN-SUFFIX,oasis.app  # MakerDAO Oasis
+DOMAIN-SUFFIX,justlend.org  # JustLend - Tron
+DOMAIN-SUFFIX,venus.io  # Venus - BSC
+DOMAIN-SUFFIX,benqi.fi  # Benqi - Avalanche
+DOMAIN-SUFFIX,morpho.org  # Morpho
+DOMAIN-SUFFIX,app.morpho.org
+DOMAIN-SUFFIX,spark.fi  # Spark Protocol
+DOMAIN-SUFFIX,radiant.capital  # Radiant Capital
+
+# Liquid Staking (流动性质押)
+DOMAIN-SUFFIX,lido.fi  # Lido - 最大流动性质押
+DOMAIN-SUFFIX,stake.lido.fi
+DOMAIN-SUFFIX,rocketpool.net  # Rocket Pool
+DOMAIN-SUFFIX,frax.finance  # Frax Finance
+DOMAIN-SUFFIX,app.frax.finance
+DOMAIN-SUFFIX,marinade.finance  # Marinade - Solana
+DOMAIN-SUFFIX,jito.network  # Jito - Solana
+DOMAIN-SUFFIX,app.jito.network
+DOMAIN-SUFFIX,stakewise.io  # StakeWise
+DOMAIN-SUFFIX,ankr.com  # Ankr Staking
+DOMAIN-SUFFIX,stakefish.com  # Stakefish
+
+# Derivatives & Perpetuals (衍生品)
+DOMAIN-SUFFIX,gmx.io  # GMX - 永续合约
+DOMAIN-SUFFIX,app.gmx.io
+DOMAIN-SUFFIX,synthetix.io  # Synthetix
+DOMAIN-SUFFIX,staking.synthetix.io
+DOMAIN-SUFFIX,kwenta.eth.limo  # Kwenta
+DOMAIN-SUFFIX,kwenta.io
+DOMAIN-SUFFIX,hyperliquid.xyz  # Hyperliquid
+DOMAIN-SUFFIX,app.hyperliquid.xyz
+DOMAIN-SUFFIX,gains.trade  # Gains Network
+DOMAIN-SUFFIX,mux.network  # MUX Protocol
+DOMAIN-SUFFIX,vela.exchange  # Vela Exchange
+
+# Yield Aggregators (收益聚合器)
+DOMAIN-SUFFIX,yearn.finance  # Yearn Finance
+DOMAIN-SUFFIX,yearn.fi
+DOMAIN-SUFFIX,convexfinance.com  # Convex Finance
+DOMAIN-SUFFIX,beefy.finance  # Beefy Finance
+DOMAIN-SUFFIX,app.beefy.finance
+DOMAIN-SUFFIX,autofarm.network  # Autofarm
+DOMAIN-SUFFIX,harvest.finance  # Harvest Finance
+
+# Cross-chain Bridges (跨链桥)
+DOMAIN-SUFFIX,stargate.finance  # Stargate - LayerZero
+DOMAIN-SUFFIX,app.stargate.finance
+DOMAIN-SUFFIX,portalbridge.com  # Portal (Wormhole)
+DOMAIN-SUFFIX,wormhole.com  # Wormhole
+DOMAIN-SUFFIX,app.across.to  # Across Protocol
+DOMAIN-SUFFIX,across.to
+DOMAIN-SUFFIX,hop.exchange  # Hop Protocol
+DOMAIN-SUFFIX,app.hop.exchange
+DOMAIN-SUFFIX,synapse.network  # Synapse Protocol
+DOMAIN-SUFFIX,synapseprotocol.com
+DOMAIN-SUFFIX,cbridge.celer.network  # Celer cBridge
+DOMAIN-SUFFIX,multichain.org  # Multichain (已停运)
+DOMAIN-SUFFIX,orbiter.finance  # Orbiter Finance
+
+# Layer 2 & Rollup Ecosystems
+DOMAIN-SUFFIX,arbitrum.io  # Arbitrum
+DOMAIN-SUFFIX,bridge.arbitrum.io
+DOMAIN-SUFFIX,optimism.io  # Optimism
+DOMAIN-SUFFIX,app.optimism.io
+DOMAIN-SUFFIX,zksync.io  # zkSync
+DOMAIN-SUFFIX,portal.zksync.io
+DOMAIN-SUFFIX,polygonscan.com  # Polygon
+DOMAIN-SUFFIX,wallet.polygon.technology
+DOMAIN-SUFFIX,base.org  # Base (Coinbase L2)
+DOMAIN-SUFFIX,bridge.base.org
+DOMAIN-SUFFIX,scroll.io  # Scroll
+DOMAIN-SUFFIX,linea.build  # Linea
+DOMAIN-SUFFIX,blast.io  # Blast
+DOMAIN-SUFFIX,starknet.io  # Starknet
+
+# Options & Structured Products (期权)
+DOMAIN-SUFFIX,ribbon.finance  # Ribbon Finance
+DOMAIN-SUFFIX,lyra.finance  # Lyra
+DOMAIN-SUFFIX,dopex.io  # Dopex
+DOMAIN-SUFFIX,hegic.co  # Hegic
+DOMAIN-SUFFIX,premia.finance  # Premia
+
+# NFT & Gaming DeFi
+DOMAIN-SUFFIX,opensea.io  # OpenSea
+DOMAIN-SUFFIX,blur.io  # Blur
+DOMAIN-SUFFIX,looksrare.org  # LooksRare
+DOMAIN-SUFFIX,x2y2.io  # X2Y2
+DOMAIN-SUFFIX,magiceden.io  # Magic Eden
+DOMAIN-SUFFIX,tensor.trade  # Tensor - Solana NFT
+
+# Real World Assets (RWA)
+DOMAIN-SUFFIX,maple.finance  # Maple Finance
+DOMAIN-SUFFIX,goldfinch.finance  # Goldfinch
+DOMAIN-SUFFIX,centrifuge.io  # Centrifuge
+DOMAIN-SUFFIX,ondo.finance  # Ondo Finance
+DOMAIN-SUFFIX,credix.finance  # Credix
+
+# Data & Analytics (数据分析工具)
+DOMAIN-SUFFIX,dextools.io  # DEXTools
+DOMAIN-SUFFIX,dexscreener.com  # DEXScreener
+DOMAIN-SUFFIX,debank.com  # DeBank
+DOMAIN-SUFFIX,zerion.io  # Zerion
+DOMAIN-SUFFIX,zapper.xyz  # Zapper
+DOMAIN-SUFFIX,zapper.fi
+DOMAIN-SUFFIX,defillama.com  # DefiLlama
+DOMAIN-SUFFIX,dune.com  # Dune Analytics
+DOMAIN-SUFFIX,nansen.ai  # Nansen
+DOMAIN-SUFFIX,coinmetrics.io  # Coin Metrics
+DOMAIN-SUFFIX,tokenterminal.com  # Token Terminal
+
+# Blockchain Explorers (区块链浏览器)
+DOMAIN-SUFFIX,etherscan.io  # Etherscan
+DOMAIN-SUFFIX,bscscan.com  # BSCScan
+DOMAIN-SUFFIX,polygonscan.com  # PolygonScan
+DOMAIN-SUFFIX,arbiscan.io  # Arbiscan
+DOMAIN-SUFFIX,optimistic.etherscan.io  # Optimism Explorer
+DOMAIN-SUFFIX,basescan.org  # BaseScan
+DOMAIN-SUFFIX,solscan.io  # Solscan
+DOMAIN-SUFFIX,explorer.solana.com  # Solana Explorer
+DOMAIN-SUFFIX,snowtrace.io  # Avalanche Explorer
+DOMAIN-SUFFIX,ftmscan.com  # Fantom Explorer
+DOMAIN-SUFFIX,cronoscan.com  # Cronos Explorer
+DOMAIN-SUFFIX,moonriver.moonscan.io  # Moonriver
+DOMAIN-SUFFIX,moonscan.io  # Moonbeam
+DOMAIN-SUFFIX,celoscan.io  # Celo Explorer
+DOMAIN-SUFFIX,gnosisscan.io  # Gnosis Explorer
+DOMAIN-SUFFIX,explorer.zksync.io  # zkSync Explorer
+DOMAIN-SUFFIX,scrollscan.com  # Scroll Explorer
+DOMAIN-SUFFIX,lineascan.build  # Linea Explorer
+DOMAIN-SUFFIX,blastscan.io  # Blast Explorer
+DOMAIN-SUFFIX,mantlescan.xyz  # Mantle Explorer
+DOMAIN-SUFFIX,explorer.metis.io  # Metis Explorer
+
+# Infrastructure Providers (基础设施)
+DOMAIN-SUFFIX,infura.io  # Infura
+DOMAIN-SUFFIX,alchemy.com  # Alchemy
+DOMAIN-SUFFIX,quicknode.com  # QuickNode
+DOMAIN-SUFFIX,moralis.io  # Moralis
+DOMAIN-SUFFIX,thegraph.com  # The Graph
+DOMAIN-SUFFIX,subgraph.com
+DOMAIN-SUFFIX,chainlink.com  # Chainlink
+DOMAIN-SUFFIX,chain.link
+DOMAIN-SUFFIX,api3.org  # API3
+DOMAIN-SUFFIX,pyth.network  # Pyth Network
+
+# Wallets & Wallet Connectors
+DOMAIN-SUFFIX,metamask.io  # MetaMask
+DOMAIN-SUFFIX,rainbow.me  # Rainbow
+DOMAIN-SUFFIX,walletconnect.com  # WalletConnect
+DOMAIN-SUFFIX,walletconnect.org
+DOMAIN-SUFFIX,safe.global  # Safe (Gnosis Safe)
+DOMAIN-SUFFIX,app.safe.global
+DOMAIN-SUFFIX,phantom.app  # Phantom - Solana
+DOMAIN-SUFFIX,backpack.app  # Backpack - Solana
+
+# Stablecoin Protocols
+DOMAIN-SUFFIX,circle.com  # USDC
+DOMAIN-SUFFIX,tether.to  # USDT
+DOMAIN-SUFFIX,liquity.org  # Liquity (LUSD)
+DOMAIN-SUFFIX,app.liquity.org
+
+# Governance & DAOs
+DOMAIN-SUFFIX,snapshot.org  # Snapshot
+DOMAIN-SUFFIX,tally.xyz  # Tally
+DOMAIN-SUFFIX,commonwealth.im  # Commonwealth
+
+# CEX Related Services (中心化交易所)
+DOMAIN-SUFFIX,binance.com  # Binance
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,okx.com  # OKX
+DOMAIN-SUFFIX,coinbase.com  # Coinbase
+DOMAIN-SUFFIX,bybit.com  # Bybit
+DOMAIN-SUFFIX,kraken.com  # Kraken
+DOMAIN-SUFFIX,kucoin.com  # KuCoin
+DOMAIN-SUFFIX,gate.io  # Gate.io
+DOMAIN-SUFFIX,huobi.com  # Huobi
+DOMAIN-SUFFIX,bitget.com  # Bitget
+DOMAIN-SUFFIX,mexc.com  # MEXC
+
+# Price Feeds & Market Data
+DOMAIN-SUFFIX,coingecko.com  # CoinGecko
+DOMAIN-SUFFIX,coinmarketcap.com  # CoinMarketCap
+DOMAIN-SUFFIX,cryptocompare.com  # CryptoCompare
+DOMAIN-SUFFIX,messari.io  # Messari
+DOMAIN-SUFFIX,coinpaprika.com  # Coinpaprika
+
+# Social & Community
+DOMAIN-SUFFIX,discord.com  # Discord (Crypto社区)
+DOMAIN-SUFFIX,gov.uniswap.org  # Uniswap治理
+DOMAIN-SUFFIX,gov.aave.com  # Aave治理
+
+# Launchpads & IDO Platforms
+DOMAIN-SUFFIX,app.aevo.xyz  # Aevo
+DOMAIN-SUFFIX,fjordfoundry.com  # Fjord Foundry
+DOMAIN-SUFFIX,poolz.finance  # Poolz
+
+# Emerging Protocols (新兴协议 2024-2025)
+DOMAIN-SUFFIX,pendle.finance  # Pendle - Yield Trading
+DOMAIN-SUFFIX,app.pendle.finance
+DOMAIN-SUFFIX,eigenlayer.xyz  # EigenLayer - Restaking
+DOMAIN-SUFFIX,app.eigenlayer.xyz
+DOMAIN-SUFFIX,etherfi.com  # Ether.fi - Liquid Restaking
+DOMAIN-SUFFIX,app.ether.fi
+DOMAIN-SUFFIX,renzo.xyz  # Renzo Protocol
+DOMAIN-SUFFIX,app.renzoprotocol.com
+DOMAIN-SUFFIX,kelpdao.xyz  # Kelp DAO
+DOMAIN-SUFFIX,app.kelpdao.xyz
+DOMAIN-SUFFIX,ethena.fi  # Ethena - Synthetic Dollar
+DOMAIN-SUFFIX,app.ethena.fi
+DOMAIN-SUFFIX,friend.tech  # Friend.tech - SocialFi
+DOMAIN-SUFFIX,blur.foundation  # Blur Foundation
+
+# === 关键词匹配 (兜底规则) ===
+DOMAIN-KEYWORD,uniswap
+DOMAIN-KEYWORD,pancake
+DOMAIN-KEYWORD,sushiswap
+DOMAIN-KEYWORD,defi
+DOMAIN-KEYWORD,dex
+DOMAIN-KEYWORD,swap
+DOMAIN-KEYWORD,etherscan
+DOMAIN-KEYWORD,bscscan
