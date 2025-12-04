@@ -248,6 +248,7 @@ DOMAIN-SUFFIX,app.ethena.fi
 DOMAIN-SUFFIX,friend.tech  # Friend.tech - SocialFi
 DOMAIN-SUFFIX,blur.foundation  # Blur Foundation
 DOMAIN-SUFFIX,ether.fi
+DOMAIN-SUFFIX,jup.ag
 
 # === 关键词匹配 (兜底规则) ===
 DOMAIN-KEYWORD,uniswap
