@@ -245,6 +245,7 @@ DOMAIN-SUFFIX,jup.ag
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okx.ac
 DOMAIN-SUFFIX,okx.cab
+DOMAIN-SUFFIX,lighter.xyz
 
 # === 关键词匹配 (兜底规则) ===
 DOMAIN-KEYWORD,uniswap
