@@ -1,0 +1,23 @@
+# ===== Apple 服务 =====
+# App Store & iTunes
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,itunes.apple.com
+DOMAIN,buy.itunes.apple.com
+
+# iCloud 服务
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,cdn-apple.com
+
+# Apple 其他服务
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN,ocsp.apple.com
+DOMAIN,mesu.apple.com
